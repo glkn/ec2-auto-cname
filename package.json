@@ -1,0 +1,27 @@
+{
+  "name": "ec2-auto-cname",
+  "version": "0.0.1",
+  "description": "Change cname records in route53 accorting to current external ip of ec2 instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/glkn/ec2-auto-cname.git"
+  },
+  "keywords": [
+    "ec2",
+    "route53",
+    "cname"
+  ],
+  "author": "Alexey Galkin <aagalkin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glkn/ec2-auto-cname/issues"
+  },
+  "homepage": "https://github.com/glkn/ec2-auto-cname#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1.37"
+  }
+}
