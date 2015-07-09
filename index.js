@@ -1,7 +1,7 @@
 var aws = require('aws-sdk'),
     route53,
     _ = require('lodash'),
-    request = request('request'),
+    request = require('request'),
     argv = require('minimist')(process.argv.slice(2));
 
 aws.config.update({
@@ -15,6 +15,7 @@ if (!argv.publicHostName) {
         if (!error && response.statusCode == 200) {
             console.log('Public hostname:', body);
             argv.publicHostName = body;
+            changeRecord();
         } else {
             console.log(error);
         }
