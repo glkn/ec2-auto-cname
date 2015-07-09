@@ -2,6 +2,7 @@
 
 ## Usage example
 
+* Install [nodejs](https://nodejs.org/) for your platform
 * Clone or download the repository
 * Run ```npm install``` inside the repository directory 
 
