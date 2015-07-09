@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/glkn/ec2-auto-cname#readme",
   "dependencies": {
-    "aws-sdk": "^2.1.37"
+    "aws-sdk": "^2.1.37",
+    "lodash": "^3.10.0",
+    "minimist": "^1.1.1",
+    "request": "^2.58.0"
   }
 }
