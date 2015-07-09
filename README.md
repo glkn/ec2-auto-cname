@@ -11,3 +11,8 @@ Now to bind your instance to resourceName run the following command from the rep
 ```
 node index.js --domain something.ru. --key AAAAAAAAAAAAA  --secret BBBBBBBBBBBBBBBBBBBBB --region eu-west-1 --resourceName name.something.ru
 ```
+
+## Useful links
+
+* Assign computer startup scripts on windows - (https://technet.microsoft.com/en-us/library/cc770556.aspx)
+* Run local group policy editor on windows - (https://technet.microsoft.com/en-us/library/cc731745.aspx)
